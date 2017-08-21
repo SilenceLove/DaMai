@@ -1,5 +1,4 @@
 PODS:
-  - HXWeiboPhotoPicker (1.2)
   - Masonry (1.0.2)
   - ReactiveCocoa (2.5):
     - ReactiveCocoa/UI (= 2.5)
@@ -10,15 +9,13 @@ PODS:
     - ReactiveCocoa/Core
 
 DEPENDENCIES:
-  - HXWeiboPhotoPicker (~> 1.2)
   - Masonry
   - ReactiveCocoa (~> 2.5)
 
 SPEC CHECKSUMS:
-  HXWeiboPhotoPicker: d025eeeff99620f496d5a73cb45059f089278b72
   Masonry: 7c429b56da9d4ee0bbb3ed77a5ea710d6a5df39e
   ReactiveCocoa: e2db045570aa97c695e7aa97c2bcab222ae51f4a
 
-PODFILE CHECKSUM: 1e4a9f515f0001cf3ee8a5be9fad6a8b47995dc1
+PODFILE CHECKSUM: 8521f7892862cb67b17e6845a14d05b1b6c3885a
 
-COCOAPODS: 1.2.0
+COCOAPODS: 1.3.1

@@ -18,7 +18,6 @@
 		7B00D5061E00FB6700BD694F /* RecommendNewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B00D5051E00FB6700BD694F /* RecommendNewModel.m */; };
 		7B00D5091E01262000BD694F /* RecommendLikeModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B00D5081E01262000BD694F /* RecommendLikeModel.m */; };
 		7B00D50C1E0127CC00BD694F /* RecommendLikeViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B00D50B1E0127CC00BD694F /* RecommendLikeViewCell.m */; };
-		7B01009F1E136E1C009839E1 /* libGPUImage.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B01009A1E136DDF009839E1 /* libGPUImage.a */; };
 		7B0100A11E136E29009839E1 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B0100A01E136E29009839E1 /* CoreMedia.framework */; };
 		7B0100A31E136E30009839E1 /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B0100A21E136E30009839E1 /* CoreVideo.framework */; };
 		7B0100A51E136E35009839E1 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B0100A41E136E35009839E1 /* OpenGLES.framework */; };
@@ -168,7 +167,6 @@
 		7B7D9A501E02AA1A005E6A15 /* SelectCityViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B7D9A4F1E02AA1A005E6A15 /* SelectCityViewModel.m */; };
 		7B7D9A531E02AAA9005E6A15 /* SelectCityModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B7D9A521E02AAA9005E6A15 /* SelectCityModel.m */; };
 		7B7D9A561E02AC59005E6A15 /* SelectCityHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B7D9A551E02AC59005E6A15 /* SelectCityHeaderView.m */; };
-		7BB248F21F0B2CCD00B07CB1 /* MyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BB248F11F0B2CCD00B07CB1 /* MyViewController.m */; };
 		7BB248F81F0B2D6300B07CB1 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BB248F71F0B2D6300B07CB1 /* CoreTelephony.framework */; };
 		7BB248FA1F0B2D7100B07CB1 /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BB248F91F0B2D7100B07CB1 /* AddressBook.framework */; };
 		7BB248FC1F0B2D7C00B07CB1 /* Contacts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BB248FB1F0B2D7C00B07CB1 /* Contacts.framework */; };
@@ -208,30 +206,6 @@
 		7BDA77891E09443E00281BAB /* ShowSubViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BDA77881E09443E00281BAB /* ShowSubViewCell.m */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		7B0100991E136DDF009839E1 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 7B0100931E136DDF009839E1 /* GPUImage.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = BCF1A33414DDB1EC00852800;
-			remoteInfo = GPUImage;
-		};
-		7B01009B1E136DDF009839E1 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 7B0100931E136DDF009839E1 /* GPUImage.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = BCE209E51943F20C002FEED8;
-			remoteInfo = GPUImageFramework;
-		};
-		7B01009D1E136E10009839E1 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 7B0100931E136DDF009839E1 /* GPUImage.xcodeproj */;
-			proxyType = 1;
-			remoteGlobalIDString = BCF1A33314DDB1EC00852800;
-			remoteInfo = GPUImage;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
 		209395713FE0FBFABA081AF8 /* Pods-大麦.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-大麦.debug.xcconfig"; path = "Pods/Target Support Files/Pods-大麦/Pods-大麦.debug.xcconfig"; sourceTree = "<group>"; };
 		6ECC15649E79A3FD6DF230BE /* libPods-大麦.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-大麦.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -255,7 +229,6 @@
 		7B00D5081E01262000BD694F /* RecommendLikeModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RecommendLikeModel.m; sourceTree = "<group>"; };
 		7B00D50A1E0127CC00BD694F /* RecommendLikeViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RecommendLikeViewCell.h; sourceTree = "<group>"; };
 		7B00D50B1E0127CC00BD694F /* RecommendLikeViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RecommendLikeViewCell.m; sourceTree = "<group>"; };
-		7B0100931E136DDF009839E1 /* GPUImage.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = GPUImage.xcodeproj; path = GPUImage/framework/GPUImage.xcodeproj; sourceTree = "<group>"; };
 		7B0100A01E136E29009839E1 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
 		7B0100A21E136E30009839E1 /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
 		7B0100A41E136E35009839E1 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
@@ -559,9 +532,6 @@
 		7B7D9A521E02AAA9005E6A15 /* SelectCityModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SelectCityModel.m; sourceTree = "<group>"; };
 		7B7D9A541E02AC59005E6A15 /* SelectCityHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SelectCityHeaderView.h; sourceTree = "<group>"; };
 		7B7D9A551E02AC59005E6A15 /* SelectCityHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SelectCityHeaderView.m; sourceTree = "<group>"; };
-		7BB248F01F0B2CCD00B07CB1 /* MyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyViewController.h; sourceTree = "<group>"; };
-		7BB248F11F0B2CCD00B07CB1 /* MyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyViewController.m; sourceTree = "<group>"; };
-		7BB248F51F0B2D3900B07CB1 /* iflyMSC.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = iflyMSC.framework; sourceTree = "<group>"; };
 		7BB248F71F0B2D6300B07CB1 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
 		7BB248F91F0B2D7100B07CB1 /* AddressBook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBook.framework; path = System/Library/Frameworks/AddressBook.framework; sourceTree = SDKROOT; };
 		7BB248FB1F0B2D7C00B07CB1 /* Contacts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Contacts.framework; path = System/Library/Frameworks/Contacts.framework; sourceTree = SDKROOT; };
@@ -648,7 +618,6 @@
 				7B0100A51E136E35009839E1 /* OpenGLES.framework in Frameworks */,
 				7B0100A31E136E30009839E1 /* CoreVideo.framework in Frameworks */,
 				7B0100A11E136E29009839E1 /* CoreMedia.framework in Frameworks */,
-				7B01009F1E136E1C009839E1 /* libGPUImage.a in Frameworks */,
 				7BB84E0C1E03882D00DA6B86 /* CoreLocation.framework in Frameworks */,
 				7B7D9A4A1E02A688005E6A15 /* libsqlite3.tbd in Frameworks */,
 				49D66D73CA2705E2800066BF /* libPods-大麦.a in Frameworks */,
@@ -665,15 +634,6 @@
 				90B7BE24D067605AA205D45B /* Pods-大麦.release.xcconfig */,
 			);
 			name = Pods;
-			sourceTree = "<group>";
-		};
-		7B0100941E136DDF009839E1 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				7B01009A1E136DDF009839E1 /* libGPUImage.a */,
-				7B01009C1E136DDF009839E1 /* GPUImage.framework */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 		7B0F754B1E29FBBB003C6C88 /* Base */ = {
@@ -702,7 +662,6 @@
 		7B19C3F61DFF88A400A56F3B = {
 			isa = PBXGroup;
 			children = (
-				7B0100931E136DDF009839E1 /* GPUImage.xcodeproj */,
 				7B19C4011DFF88A400A56F3B /* 大麦 */,
 				7B19C4001DFF88A400A56F3B /* Products */,
 				7B7D9A481E02A688005E6A15 /* Frameworks */,
@@ -992,8 +951,6 @@
 				7BDA77781E08FE7800281BAB /* WebViewController.m */,
 				7B3E73381E0BCB8B00C44912 /* IntroductionDetailsViewController.h */,
 				7B3E73391E0BCB8B00C44912 /* IntroductionDetailsViewController.m */,
-				7BB248F01F0B2CCD00B07CB1 /* MyViewController.h */,
-				7BB248F11F0B2CCD00B07CB1 /* MyViewController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -1533,7 +1490,6 @@
 				7BB248FB1F0B2D7C00B07CB1 /* Contacts.framework */,
 				7BB248F91F0B2D7100B07CB1 /* AddressBook.framework */,
 				7BB248F71F0B2D6300B07CB1 /* CoreTelephony.framework */,
-				7BB248F51F0B2D3900B07CB1 /* iflyMSC.framework */,
 				7B0100A81E136E4C009839E1 /* QuartzCore.framework */,
 				7B0100A61E136E45009839E1 /* AVFoundation.framework */,
 				7B0100A41E136E35009839E1 /* OpenGLES.framework */,
@@ -1590,7 +1546,6 @@
 			buildRules = (
 			);
 			dependencies = (
-				7B01009E1E136E10009839E1 /* PBXTargetDependency */,
 			);
 			name = "大麦";
 			productName = "大麦";
@@ -1624,35 +1579,12 @@
 			mainGroup = 7B19C3F61DFF88A400A56F3B;
 			productRefGroup = 7B19C4001DFF88A400A56F3B /* Products */;
 			projectDirPath = "";
-			projectReferences = (
-				{
-					ProductGroup = 7B0100941E136DDF009839E1 /* Products */;
-					ProjectRef = 7B0100931E136DDF009839E1 /* GPUImage.xcodeproj */;
-				},
-			);
 			projectRoot = "";
 			targets = (
 				7B19C3FE1DFF88A400A56F3B /* 大麦 */,
 			);
 		};
 /* End PBXProject section */
-
-/* Begin PBXReferenceProxy section */
-		7B01009A1E136DDF009839E1 /* libGPUImage.a */ = {
-			isa = PBXReferenceProxy;
-			fileType = archive.ar;
-			path = libGPUImage.a;
-			remoteRef = 7B0100991E136DDF009839E1 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		7B01009C1E136DDF009839E1 /* GPUImage.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = GPUImage.framework;
-			remoteRef = 7B01009B1E136DDF009839E1 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		7B19C3FD1DFF88A400A56F3B /* Resources */ = {
@@ -1690,13 +1622,16 @@
 			files = (
 			);
 			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-大麦-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 		6A56E9D16152D8CE4473C74D /* [CP] Embed Pods Frameworks */ = {
@@ -1771,7 +1706,6 @@
 				7BDA77441E04E22B00281BAB /* IntroductionOneModel.m in Sources */,
 				7B3DE9071DFFCEE300015462 /* NSString+MJExtension.m in Sources */,
 				7B3E73341E0BB7A200C44912 /* DiscoverHeaderView.m in Sources */,
-				7BB248F21F0B2CCD00B07CB1 /* MyViewController.m in Sources */,
 				7B7D9A2E1E029FAD005E6A15 /* Tools.m in Sources */,
 				7B3E72D81E0A4FDB00C44912 /* ShowViewCellModel.m in Sources */,
 				7B3DE9511DFFD12200015462 /* SDWebImageDecoder.m in Sources */,
@@ -1904,14 +1838,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		7B01009E1E136E10009839E1 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = GPUImage;
-			targetProxy = 7B01009D1E136E10009839E1 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		7B19C4101DFF88A400A56F3B /* LaunchScreen.storyboard */ = {

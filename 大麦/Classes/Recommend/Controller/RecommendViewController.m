@@ -17,9 +17,7 @@
 #import "SelectCityViewController.h"
 #import <CoreLocation/CoreLocation.h>
 #import "IntroductionViewController.h"
-#import "RecommendLikeModel.h"
-#import <GPUImage.h>
-#import "MyViewController.h"
+#import "RecommendLikeModel.h" 
 @interface RecommendViewController ()<UITableViewDataSource,UITableViewDelegate,RecommendHeaderViewDelegate,CLLocationManagerDelegate>
 @property (weak, nonatomic) UITableView *tableView;
 @property (strong, nonatomic) RecommendViewModel *viewModel;
@@ -230,9 +228,7 @@ static NSString *recommendLikeViewCellId = @"recommendLikeViewCellId";
 
 - (void)messageClick
 {
-    MyViewController *vc = [[MyViewController alloc] init];
-    vc.hidesBottomBarWhenPushed = YES;
-    [self.navigationController pushViewController:vc animated:YES];
+    
 }
 
 - (void)setupTableView
