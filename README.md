@@ -1,2 +1,1 @@
-# DaMai
-imitation
+# 仿大麦App

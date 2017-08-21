@@ -1,0 +1,42 @@
+//
+//  PrefixHeader.pch
+//  大麦
+//
+//  Created by 洪欣 on 16/12/13.
+//  Copyright © 2016年 洪欣. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+#define HXWeakSelf __weak typeof(self) weakSelf = self;
+
+#define ScreenBounds [[UIScreen mainScreen] bounds]
+#define ScreenWidth [[UIScreen mainScreen] bounds].size.width
+#define ScreenHeight [[UIScreen mainScreen] bounds].size.height
+
+#import <Masonry.h>
+#import <ReactiveCocoa.h>
+#import "HttpTool.h"
+#import "HttpSessionManager.h"
+#import "UIColor+Extension.h"
+#import "UIView+Extension.h"
+#import "UILabel+Extension.h"
+#import "UIButton+Extension.h"
+#import "UIBarButtonItem+Extension.h"
+#import "UIImage+Extension.h"
+#import "UIImageView+Extension.h"
+#import "MJExtension.h"
+#import "UIImageView+WebCache.h"
+#import "CityInformationModel.h"
+#import "SelectCityModel.h"
+#import "LoadingView.h"
+#import "FMDB.h"
+#import "Tools.h"
+#import "UITextView+Extension.h"
+#import "MJRefresh.h"
+#import "SingleClass.h"
+#import "HXRefreshHeader.h"
+#import "NSDate+Extension.h"
+
+#endif /* PrefixHeader_pch */
